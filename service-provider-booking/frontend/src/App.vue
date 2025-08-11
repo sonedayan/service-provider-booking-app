@@ -1,10 +1,13 @@
-<script setup></script>
+<script setup>
+import SignupForm from './components/SignupForm.vue';
+import LoginForm from './components/LoginForm.vue';
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Wehhhhh Papa
-  </p>
+  <SignupForm/>
+
+  <LoginForm/>
+
 </template>
 
 <style scoped></style>
